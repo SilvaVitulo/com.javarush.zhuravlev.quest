@@ -8,11 +8,9 @@ import java.util.List;
 public class QuestionRepository {
 
     private List<Question> questions= Arrays.asList(
-            new Question("Какая столица Франции?", new String[]{"Париж", "Лондон", "Берлин"}, 0),
-            new Question("Сколько планет в Солнечной системе?", new String[]{"8", "9", "10"}, 0),
-            new Question("Кто написал 'Войну и мир'?", new String[]{"Толстой", "Достоевский", "Чехов"}, 0),
-            new Question("Какой язык программирования самый популярный?", new String[]{"Python", "Java", "JavaScript"}, 1),
-            new Question("Какой год был основан Google?", new String[]{"2000", "1998", "1995"}, 1)
+            new Question("Куда вы хотите направится дальше?", new String[]{"Разбудить борт механика", "Поздороватся со штурманом"}, 1),
+            new Question("Приветствую! Для вас есть задание из главного центра!", new String[]{"Какое?", "Притвориться что ничего не слышал"}, 0),
+            new Question("Необходимо выставить координаты для нового маршрута коробля 10'12'100", new String[]{"Выставить 10'12'100", "Выставить 11'12'100"}, 0)
             );
     public List<Question> getAllQuestions(){
         return questions;

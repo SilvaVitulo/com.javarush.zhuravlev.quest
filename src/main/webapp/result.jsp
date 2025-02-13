@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: s-vl
-  Date: 09.02.2025
-  Time: 20:52
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -18,7 +11,7 @@
 </head>
 <body>
     <h1>Игра завершена!</h1>
-    <p>${playerName}, ваш результат: ${score} из 5</p>
+    <p>${playerName}, ваш результат: ${score} из 3</p>
     <p>Ваш IP: ${ipAddress}</p>
     <p>Сыграно игр: ${gamesPlayed}</p>
     <a href="/">Начать заново</a>
